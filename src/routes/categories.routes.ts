@@ -1,5 +1,6 @@
 import { Router } from 'express';
 
+// Corrigindo as importações das linhas 3 e 4 anteriormente n tinha a parte modules/cars/
 import { CategoriesRepository } from '../modules/cars/repositories/CategoriesRepository';
 import { CreateCategoryService } from '../modules/cars/services/CreateCategoryService';
 
